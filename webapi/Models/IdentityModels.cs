@@ -27,7 +27,9 @@ namespace webapi.Models
         
         public static ApplicationDbContext Create()
         {
+            string a = "";
             return new ApplicationDbContext();
         }
+
     }
 }
